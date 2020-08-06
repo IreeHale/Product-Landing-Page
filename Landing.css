@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #top-nav{
@@ -39,3 +40,32 @@
     padding: 0;
     background-color: red;
 } 
+
+#banner h2{
+    font-size: 35px;
+    padding-top: 190px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#email{
+    margin-top: 15px;
+    width: 560px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
