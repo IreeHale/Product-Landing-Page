@@ -53,6 +53,17 @@ a{
     padding-top: 190px;
     font-family: sans-serif;
     font-weight: bold;
+    position: relative;
+}
+
+.color-overlay{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(240, 255, 0, 0.5);
+    position: relative;
+    z-index: 1;
 }
 
 #email{
@@ -61,6 +72,8 @@ a{
     padding: 5px;
     border-radius: 5px;
     border: black 1px solid;
+    position: relative;
+    z-index: 2;
 }
 
 button{
@@ -68,10 +81,12 @@ button{
     border-radius: 5px;
     width: 150px;
     padding: 5px;
-    margin-top: 15px;
     font-size: 15px;
     background-color: black;
     color: white;
+    position: relative;
+    z-index: 2;
+    top: 20px;
 }
 
 
