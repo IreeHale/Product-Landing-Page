@@ -1,102 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-#top-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 45px;
-    padding-left: 560px;
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
-#top-nav li{
-    padding-right: 22px;
-    padding-top: 15px;
-    font-size: 18px;;
-    margin-right: 50px;
-    font-family: cursive;
-}
-
-a{
-    text-decoration: none;
-    color: yellow;
-}
-
-#logo-title{
-    position: absolute;
-    color: yellow;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: cursive;
-    top: 8px;
-    left: 35px;
-}
-
-#banner{
-    text-align: center;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    background-image: url('./images/honey-bees(2).jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-
-#banner h2{
-    font-size: 35px;
-    padding-top: 190px;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: relative;
-}
-
-.color-overlay{
-    height: 500px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: rgba(240, 255, 0, 0.5);
-    position: relative;
-    z-index: 1;
-}
-
-#email{
-    margin-top: 15px;
-    width: 300px;
-    padding: 5px;
-    border-radius: 5px;
-    border: black 1px solid;
-    position: relative;
-    z-index: 2;
-}
-
-button{
-    border: none;
-    border-radius: 5px;
+#header{
     width: 150px;
-    padding: 5px;
-    font-size: 15px;
-    background-color: black;
-    color: white;
-    position: relative;
-    z-index: 2;
-    top: 20px;
 }
 
-
-/** hover classes **/
-
-button:hover{
-    cursor: pointer;
+#header-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
 }
 
-a:hover{
-    color: white;
-    text-decoration: none;
+#nav-bar{
+    display: inline-block;
+    flex-direction: row;
+}
+
+#nav-bar li{
+    border: solid 2px green;
 }
