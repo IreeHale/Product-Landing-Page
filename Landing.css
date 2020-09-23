@@ -31,11 +31,25 @@ li a{
     font-weight: bold;
 }
 
-#banner{
-    text-align: center;
-    line-height: 30px;
-    border: 2px solid green;
+.banner{
     height: 500px;
-    background-image:
+    background-image:url("./images/honey-bees(2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.color-overlay{
+    height: 500px;
+    background-color: rgba(255,255,0,0.5);
+    border: green solid 1px;
+    z-index: 1;
+}
+
+.opening{
+    border: red solid 1px;
+    z-index: 2;
+    display: absolute;
+    top: 20px;
 }
 
