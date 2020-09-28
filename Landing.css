@@ -45,6 +45,42 @@ li a{
     z-index: auto;
 }
 
+/*Opening statement*/
 .open{
+    padding-top: 150px;
 }
+
+.open h1{
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-family: cursive; 
+    font-weight: bold;
+}
+
+#email{
+    margin-bottom: 20px;
+    padding: 3px;
+    width: 350px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#submit{
+    padding-bottom: 5px;
+    font-family: cursive; 
+    border: black 2px solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  rgba(255,255,0);
+}
+
+.cards{
+    display: flex; 
+    flex-direction: row;
+}
+
+
 
