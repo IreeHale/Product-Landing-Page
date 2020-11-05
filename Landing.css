@@ -78,11 +78,15 @@ li a{
     cursor: pointer;
 }
 
+/*card container*/
+
 .container{
     display: flex;
     flex-direction: row;
     height: 600px;
 }
+
+/*cards*/
 
 .card{
     margin: 45px;
@@ -93,17 +97,27 @@ li a{
     border-radius: 7px;
 }
 
+/*using nth-child to add css to cards*/
+
 .card:nth-child(1){
     background-color: red;
+    color: white; 
+    text-align: center;
 }
 
 .card:nth-child(2){
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .card:nth-child(3){
     background-color: green;
+    color: white; 
+    text-align: center;
 }
+
+/*OG Honey question form*/
 
 .info-form{
     height: 500px;
@@ -117,6 +131,8 @@ li a{
     padding-top: 25px;
     text-decoration: underline;
 }
+
+/*footer for OG Honey*/
 
 footer{
     height: 50px;
