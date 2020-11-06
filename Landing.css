@@ -82,6 +82,7 @@ li a{
 .products{
     padding-top: 35px;
     text-align: center;
+    text-decoration: underline;
     font-size: 28px;
     font-family: cursive;
 }
