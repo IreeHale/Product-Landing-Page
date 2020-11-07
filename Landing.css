@@ -137,6 +137,9 @@ li a{
     font-weight: bold;
 }
 
+.selling{
+    border: solid red 1px;
+}
 /*OG Honey question form*/
 
 .info-form{
