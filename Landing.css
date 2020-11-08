@@ -139,8 +139,13 @@ li a{
 
 .selling{
     padding-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 35px;
     border: solid red 1px;
-    height: 100px;
+    height: 200px;
 }
 /*OG Honey question form*/
 
@@ -150,6 +155,8 @@ li a{
     text-align: center;
 }
 
+
+/*form block for project*/
 .info-form h2{
     font-size: 21px;
     font-weight: bold;
