@@ -138,7 +138,9 @@ li a{
 }
 
 .selling{
+    padding-top: 30px;
     border: solid red 1px;
+    height: 100px;
 }
 /*OG Honey question form*/
 
