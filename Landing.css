@@ -139,14 +139,33 @@ li a{
 
 .selling{
     padding-top: 30px;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 22px;
     font-family: sans-serif;
-    line-height: 35px;
-    border: solid red 1px;
+    line-height: 40px;
     height: 200px;
 }
+
+
+/*button styling*/
+
+.btn{
+ margin-top: 35px;
+ padding: 10px;
+ border-radius: 5px;
+ font-size: 20px;
+ border: none;
+ background-color: rgba(255,255,0);
+}
+
+/*button hover styling*/
+
+.btn:hover {
+    border: black solid 1.5px;
+    transition: 0.5s;
+}
+
 /*OG Honey question form*/
 
 .info-form{
@@ -157,7 +176,7 @@ li a{
 
 
 /*form block for project*/
-.info-form h2{
+.info-form h3{
     font-size: 21px;
     font-weight: bold;
     padding-top: 25px;
@@ -173,7 +192,8 @@ footer{
     background-color: black;
 }
 
-footer h3{
+footer h4{
     padding-top: 15px;
+    font-family: sans-serif;
 }
 
