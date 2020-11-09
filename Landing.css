@@ -163,24 +163,25 @@ li a{
 
 .btn:hover {
     border: black solid 1.5px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 /*OG Honey question form*/
 
-.info-form{
+.info{
     height: 500px;
-    background-color: orange;
+    background-color:  rgba(255,255,0);;
     text-align: center;
 }
 
 
 /*form block for project*/
-.info-form h3{
+.info h3{
     font-size: 21px;
-    font-weight: bold;
     padding-top: 25px;
     text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 /*footer for OG Honey*/
@@ -195,5 +196,7 @@ footer{
 footer h4{
     padding-top: 15px;
     font-family: sans-serif;
+    color:  rgba(255,255,0);
+    font-weight: bold;
 }
 
