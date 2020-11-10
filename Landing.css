@@ -170,8 +170,7 @@ li a{
 
 .info{
     height: 500px;
-    background-color:  rgba(255,255,0);;
-    text-align: center;
+    background-color:  rgba(255,255,0);
 }
 
 
@@ -182,7 +181,25 @@ li a{
     text-decoration: underline;
     font-family: sans-serif;
     font-weight: bold;
+    text-align: center;
 }
+
+/*Form styling*/
+
+.info-form{
+    margin-top: 70px;
+    border: solid red 1px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.info-form{
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 350px;
+}
+
+/*form label styles*/
 
 /*footer for OG Honey*/
 
