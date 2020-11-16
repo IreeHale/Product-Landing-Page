@@ -213,6 +213,9 @@ li a{
 }
 
 #comment{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 /*form input styling*/
@@ -221,7 +224,8 @@ li a{
     margin-bottom: 40px;
     border-radius: 5px;
     height: 25px;
-    width: 350px;
+    width: 380px;
+    font-family: sans-serif;
 }
 
 #Email{
@@ -230,20 +234,26 @@ li a{
     margin-bottom: 40px;
     border-radius: 5px;
     height: 25px;
-    width: 350px;
+    width: 380px;
+    font-family: sans-serif;
 }
 
 #question{
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    height: 120px;
+    height: 150px;
     width: 500px;
 }
 
 /*Submit Button*/
 
-#submit2{}
+#submit2{
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 100px;
+    height: 35px;
+}
 
 /*footer for OG Honey*/
 
