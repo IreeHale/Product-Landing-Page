@@ -248,11 +248,16 @@ li a{
 
 /*Submit Button*/
 
-#submit2{
+#send{
     margin-top: 10px;
-    margin-left: 250px;
-    width: 100px;
-    height: 35px;
+    margin-left: 200px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(255,255,0);
+    border: none;
+    font-family: sans-serif;
 }
 
 /*footer for OG Honey*/
